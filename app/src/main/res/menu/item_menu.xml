@@ -15,5 +15,10 @@
         android:title="About App"
         app:showAsAction="never"
         />
+    <item android:id="@+id/menu_Item_Card"
+        android:title="Card"
+        app:showAsAction="never"
+        />
+
 
 </menu>

@@ -335,12 +335,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             @Override
             public void onClick(View v) {
                 String totalOver = editText_TotalOver.getText().toString();
-
                 try {
-
-
-
-
                     double tover = Double.parseDouble(totalOver);
                     double temp =  tover*10;
                     int a = (int) temp/10;
@@ -364,11 +359,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
                             tempOver = 1+(ball/6);
                             TimeLIneContent.append("\n"+"Over "+tempOver+" :  ");
                         }
-
-
-
                     }
-
 
                 }catch (Exception e){
                     //Toast.makeText(MainActivity.this,"Please Input Integer",Toast.LENGTH_SHORT).show();
@@ -376,8 +367,6 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             }
         });
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -396,6 +385,10 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
             case R.id.menu_Item_AboutDeveloper:
                 Intent intent = new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
+                return true;
+            case R.id.menu_Item_Card:
+                Intent intent1 = new Intent(MainActivity.this,Card.class);
+                startActivity(intent1);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

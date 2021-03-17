@@ -30,7 +30,7 @@ public class SplashScreen extends AppCompatActivity {
         thread.start();
     }
     public void doWork(){
-        for(progress=1;progress<=100;progress=progress+.1){
+        for(progress=1;progress<=100;progress=progress+.3){
             try {
                 Thread.sleep(2);
                 progressBar.setProgress((int) progress);

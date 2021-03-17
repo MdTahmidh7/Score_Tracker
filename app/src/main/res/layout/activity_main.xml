@@ -59,7 +59,7 @@
             android:id="@+id/button_UpdateTotalRun"
             android:layout_marginLeft="30dp"
             android:text="Update"
-            android:textColor="#EFD10E"
+            android:textColor="#151514"
             android:background="@drawable/otherbuttonbg"
             />
 
@@ -92,7 +92,7 @@
             android:id="@+id/button_UpdateWicket"
             android:layout_marginLeft="30dp"
             android:text="Update"
-            android:textColor="#EFD10E"
+            android:textColor="#171715"
             android:background="@drawable/otherbuttonbg"
             />
     </LinearLayout>
@@ -126,7 +126,7 @@
             android:id="@+id/button_UpdateOver"
             android:layout_marginLeft="27dp"
             android:text="Update"
-            android:textColor="#EFD10E"
+            android:textColor="#121211"
             android:background="@drawable/otherbuttonbg"
             />
 
@@ -265,7 +265,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         >
 
         <ScrollView
@@ -280,7 +279,6 @@
                 android:textColor="#13BA42"
 
                 android:textSize="17sp"
-
                 />
 
         </ScrollView>
