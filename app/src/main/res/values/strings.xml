@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Score Tracker</string>
+    <string name="about_String">
+        Abdullah Al Tahmid \n
+    </string>
+    <string name="about_String_Dept">
+        Software Engineering \n
+    </string>
+    <string name="about_String_Ins">
+        IIT,NSTU
+    </string>
+</resources>
